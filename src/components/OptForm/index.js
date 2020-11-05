@@ -3,6 +3,7 @@ import {
     Input,
     Button,
     Text,
+    Break,
 } from './styles/optForm';
 
 function OptForm({ children, ...restProps }) {
@@ -16,13 +17,17 @@ OptForm.Input = function OptFormInput({...restProps }) {
 OptForm.Button = function OptFormButton({ children, ...restProps }) {
     return (
         <Button {...restProps}>
-            {children} <img src="/images/icons/chevron0right.png" alt="Try Now" />
+            {children} <img src="/images/icons/chevron-right.png" alt="Try Now" />
         </Button>
     );
 }
 
 OptForm.Text = function OptFormText({ children, ...restProps }) {
     return <Text {...restProps}>{children}</Text>
+}
+
+OptForm.Break = function OptFormBreak({ children, ...restProps }) {
+    return <Break {...restProps}>{children}</Break>
 }
 
 export default OptForm;
