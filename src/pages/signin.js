@@ -5,12 +5,15 @@ import FooterContainer from '../containers/footer';
 import { Form } from '../components';
 
 import { FirebaseContext } from '../context/firebase';
+import { useHistory } from 'react-router-dom';
+import * as ROUTES from '../constants/routes';
 
 function SignIn() {
+    const history = useHistory();
     const  { firebase } = useContext(FirebaseContext);
 
     const [emailAddress, setEmailAddress] = useState('');
-    const [password, setPassword] = useState('');
+    const [password, setPassword] = useState(''); 
     const [error, setError] = useState('');
 
     const isInvalid = [password, emailAddress].some( field => field === '');
@@ -22,12 +25,13 @@ function SignIn() {
             .auth()
             .signInWithEmailAndPassword(emailAddress, password)
             .then(() => {
-                // push to the browse page
+                history.push(ROUTES.BROWSE);
             })
             .catch((error) => {
                 setEmailAddress('');
                 setPassword('');
                 setError(error.message);
+                // console.log(error)
             });
     }
 
