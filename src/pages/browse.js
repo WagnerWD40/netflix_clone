@@ -1,6 +1,10 @@
+import HeaderContainer from '../containers/header';
+
 function Browse() {
     return (
-        <p>Hello from the browse</p>
+        <HeaderContainer>
+            <p>Hello from the browse</p>
+        </HeaderContainer>
     )
 }
 
