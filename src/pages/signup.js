@@ -29,7 +29,7 @@ function SignUp() {
                 result.user
                     .updateProfile({
                         displayName: firstName,
-                        photoUrl: getRandomNumber(),
+                        photoURL: getRandomNumber(),
                 }).then(() => {
                     history.push(ROUTES.BROWSE);
                 })

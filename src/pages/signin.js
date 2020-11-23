@@ -31,7 +31,6 @@ function SignIn() {
                 setEmailAddress('');
                 setPassword('');
                 setError(error.message);
-                // console.log(error)
             });
     }
 
@@ -49,7 +48,6 @@ function SignIn() {
                             placeholder="Email address" />
                         
                         <Form.Input
-                            value={emailAddress}
                             type="password"
                             autoComplete="off"
                             value={password}

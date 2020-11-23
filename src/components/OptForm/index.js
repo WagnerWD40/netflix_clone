@@ -10,11 +10,11 @@ function OptForm({ children, ...restProps }) {
     return <Container {...restProps}>{children}</Container>
 }
 
-OptForm.Input = function OptFormInput({...restProps }) {
+OptForm.Input = function ({...restProps }) {
     return <Input {...restProps} />;
 }
 
-OptForm.Button = function OptFormButton({ children, ...restProps }) {
+OptForm.Button = function ({ children, ...restProps }) {
     return (
         <Button {...restProps}>
             {children} <img src="/images/icons/chevron-right.png" alt="Try Now" />
@@ -22,11 +22,11 @@ OptForm.Button = function OptFormButton({ children, ...restProps }) {
     );
 }
 
-OptForm.Text = function OptFormText({ children, ...restProps }) {
+OptForm.Text = function ({ children, ...restProps }) {
     return <Text {...restProps}>{children}</Text>
 }
 
-OptForm.Break = function OptFormBreak({ children, ...restProps }) {
+OptForm.Break = function ({ children, ...restProps }) {
     return <Break {...restProps}>{children}</Break>
 }
 

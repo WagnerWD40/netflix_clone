@@ -4,14 +4,14 @@ import { FirebaseContext } from '../context/firebase';
 function useAuthListener() {
     const { firebase } = useContext(FirebaseContext);
 
-    const [user, setUser] = useState(JSON.parse(localStorage.getItem('authUser')));
+    const [user, setUser] = useState(JSON.parse(localStorage.getItem('@Netflix-clone:authUser')));
 
     function refreshUser(authUser) {
         if (authUser) {
-            localStorage.setItem('authUser', JSON.stringify(authUser));
+            localStorage.setItem('@Netflix-clone:authUser', JSON.stringify(authUser));
             setUser(authUser)
         } else {
-            localStorage.removeItem('authUser');
+            localStorage.removeItem('@Netflix-clone:authUser');
             setUser(null);
         }
     }
@@ -19,12 +19,12 @@ function useAuthListener() {
     useEffect(() => {
         const listener = firebase
                             .auth()
-                            .onAuthStateChanged(refreshUser)
+                            .onAuthStateChanged(authUser => refreshUser(authUser))
 
         return () => listener();
     }, []);
 
-    return { user };
+    return user;
 }
 
 export default useAuthListener;
