@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> renders the <Footer /> with populated data 1`] = `
+<div
+  class="footer__Container-sc-1ldezn2-0 kfGenw"
+>
+  <p
+    class="footer__Title-sc-1ldezn2-4 befny"
+  >
+    Questions? Contact us.
+  </p>
+  <p
+    class="footer__Break-sc-1ldezn2-6 ejXQiJ"
+  />
+  <div
+    class="footer__Row-sc-1ldezn2-2 dbGzYM"
+  >
+    <div
+      class="footer__Column-sc-1ldezn2-1 xFNdz"
+    >
+      <a
+        class="footer__Link-sc-1ldezn2-3 iXNQGX"
+      >
+        FAQ
+      </a>
+      <a
+        class="footer__Link-sc-1ldezn2-3 iXNQGX"
+      >
+        Investor Relations
+      </a>
+      <a
+        class="footer__Link-sc-1ldezn2-3 iXNQGX"
+      >
+        Ways to Watch
+      </a>
+      <a
+        class="footer__Link-sc-1ldezn2-3 iXNQGX"
+      >
+        Corporate Information
+      </a>
+      <a
+        class="footer__Link-sc-1ldezn2-3 iXNQGX"
+      >
+        Netflix Originals
+      </a>
+    </div>
+    <div
+      class="footer__Column-sc-1ldezn2-1 xFNdz"
+    >
+      <a
+        class="footer__Link-sc-1ldezn2-3 iXNQGX"
+      >
+        Help Center
+      </a>
+      <a
+        class="footer__Link-sc-1ldezn2-3 iXNQGX"
+      >
+        Jobs
+      </a>
+      <a
+        class="footer__Link-sc-1ldezn2-3 iXNQGX"
+      >
+        Terms of Use
+      </a>
+      <a
+        class="footer__Link-sc-1ldezn2-3 iXNQGX"
+      >
+        Contact Us
+      </a>
+    </div>
+    <div
+      class="footer__Column-sc-1ldezn2-1 xFNdz"
+    >
+      <a
+        class="footer__Link-sc-1ldezn2-3 iXNQGX"
+      >
+        Account
+      </a>
+      <a
+        class="footer__Link-sc-1ldezn2-3 iXNQGX"
+      >
+        Redeem Gift Cards
+      </a>
+      <a
+        class="footer__Link-sc-1ldezn2-3 iXNQGX"
+      >
+        Privacy
+      </a>
+      <a
+        class="footer__Link-sc-1ldezn2-3 iXNQGX"
+      >
+        Speed Test
+      </a>
+    </div>
+    <div
+      class="footer__Column-sc-1ldezn2-1 xFNdz"
+    >
+      <a
+        class="footer__Link-sc-1ldezn2-3 iXNQGX"
+      >
+        Media Center
+      </a>
+      <a
+        class="footer__Link-sc-1ldezn2-3 iXNQGX"
+      >
+        Buy Gift Cards
+      </a>
+      <a
+        class="footer__Link-sc-1ldezn2-3 iXNQGX"
+      >
+        Cookie Preferences
+      </a>
+      <a
+        class="footer__Link-sc-1ldezn2-3 iXNQGX"
+      >
+        Legal Notices
+      </a>
+    </div>
+  </div>
+</div>
+`;

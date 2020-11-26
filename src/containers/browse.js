@@ -38,7 +38,7 @@ function BrowseContainer({ slides }) {
         } else {
             setSlideRows(slides[category]);
         }
-        
+
     }, [searchTerm]);
 
     const user = firebase.auth().currentUser || {};

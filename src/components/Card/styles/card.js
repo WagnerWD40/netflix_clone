@@ -68,7 +68,7 @@ export const Meta = styled.div`
     background-color: #0000008F;
 `;
 
-export const Item = styled.p`
+export const Item = styled.div`
     display: flex;
     flex-direction: column;
     margin-right: 5px;

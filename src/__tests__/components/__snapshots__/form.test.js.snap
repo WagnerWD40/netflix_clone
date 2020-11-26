@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Form /> renders the <Form /> with an error 1`] = `
+<div
+  class="form__Container-sc-16tf2j9-0 johIFI"
+>
+  <h1
+    class="form__Title-sc-16tf2j9-3 gyXFTU"
+  >
+    Sign In
+  </h1>
+  <div
+    class="form__Error-sc-16tf2j9-2 imIHSU"
+  >
+    Your email address is already being used
+  </div>
+  <form
+    class="form__Base-sc-16tf2j9-1 jumDK"
+    method="POST"
+  >
+    <input
+      class="form__Input-sc-16tf2j9-7 dgCSee"
+      placeholder="Email address"
+    />
+    <input
+      autocomplete="off"
+      class="form__Input-sc-16tf2j9-7 dgCSee"
+      placeholder="Password"
+      type="password"
+    />
+    <button
+      class="form__Submit-sc-16tf2j9-8 dMAVsP"
+      disabled=""
+      type="submit"
+    >
+      Sign In
+    </button>
+  </form>
+  <p
+    class="form__Text-sc-16tf2j9-4 kyxGOX"
+  >
+    New to Netflix?
+  </p>
+  <p
+    class="form__TextSmall-sc-16tf2j9-5 jMSQyH"
+  >
+    This page is protected by Google reCAPTCHA to ensure you're not a bot. Learn more.
+  </p>
+</div>
+`;
+
+exports[`<Form /> renders the <Form /> with populated data 1`] = `
+<div
+  class="form__Container-sc-16tf2j9-0 johIFI"
+>
+  <h1
+    class="form__Title-sc-16tf2j9-3 gyXFTU"
+  >
+    Sign In
+  </h1>
+  <form
+    class="form__Base-sc-16tf2j9-1 jumDK"
+    method="POST"
+  >
+    <input
+      class="form__Input-sc-16tf2j9-7 dgCSee"
+      placeholder="Email address"
+    />
+    <input
+      autocomplete="off"
+      class="form__Input-sc-16tf2j9-7 dgCSee"
+      placeholder="Password"
+      type="password"
+    />
+    <button
+      class="form__Submit-sc-16tf2j9-8 dMAVsP"
+      disabled=""
+      type="submit"
+    >
+      Sign In
+    </button>
+  </form>
+  <p
+    class="form__Text-sc-16tf2j9-4 kyxGOX"
+  >
+    New to Netflix?
+  </p>
+  <p
+    class="form__TextSmall-sc-16tf2j9-5 jMSQyH"
+  >
+    This page is protected by Google reCAPTCHA to ensure you're not a bot. Learn more.
+  </p>
+</div>
+`;

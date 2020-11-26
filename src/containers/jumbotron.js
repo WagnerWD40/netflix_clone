@@ -4,8 +4,7 @@ import { Jumbotron } from '../components';
 function JumbotronContainer() {
     return (
         <Jumbotron.Container>
-        {
-            jumboData.map(item => (
+            {jumboData.map(item => (
                 <Jumbotron key={item.id} direction={item.direction}>
                     <Jumbotron.Pane>
                         <Jumbotron.Title>{item.title}</Jumbotron.Title>
@@ -16,10 +15,8 @@ function JumbotronContainer() {
                     </Jumbotron.Pane>
 
                 </Jumbotron>
-            ))
-        }
-
-    </Jumbotron.Container>
+            ))}
+        </Jumbotron.Container>
     );
 }
 

@@ -13,7 +13,7 @@ function Home() {
                         Unlimited films, TV programmes and more.
                     </Feature.Title>
                     <Feature.SubTitle>
-                        Watch anywhare. Cancel at anytime.
+                        Watch anywhere. Cancel at anytime.
                     </Feature.SubTitle>
                     <OptForm>
                         <OptForm.Input placeholder="Email address" />

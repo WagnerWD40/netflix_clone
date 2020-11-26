@@ -21,7 +21,7 @@ import {
 } from './styles/header';
 
 function Header({ bg = true, children, ...restProps }) {
-return bg ? <Background {...restProps}>{children}</Background> : children;
+return bg ? <Background {...restProps} data-testid="header-bg">{children}</Background> : children;
 }
 
 Header.Feature = function ({ children, ...restProps }) {

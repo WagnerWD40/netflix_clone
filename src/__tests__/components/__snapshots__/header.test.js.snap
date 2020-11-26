@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> renders the basic <Header /> with a background  1`] = `
+<div
+  class="header__Background-bd9uij-0 FaKIH"
+  data-testid="header-bg"
+>
+  <div
+    class="header__Container-bd9uij-6 koFwzB"
+  />
+</div>
+`;
