@@ -10,6 +10,7 @@ import * as ROUTES from '../constants/routes';
 import * as CATEGORIES from '../constants/categories';
 
 function BrowseContainer({ slides }) {
+    console.log('test');
     const { firebase } = useContext(FirebaseContext);
 
     const [category, setCategory] = useState(CATEGORIES.SERIES);
